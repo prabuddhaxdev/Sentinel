@@ -38,6 +38,22 @@ export const metadata: Metadata = {
     "semantic search",
     "AI-powered development",
   ],
+  authors: [{ name: "Sentinel AI" }],
+  creator: "Sentinel",
+  publisher: "Sentinel",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    title: "Sentinel - AI-Powered GitHub Code Analysis & Collaboration",
+    description: "Transform your development workflow with AI-assisted code navigation, natural language search, and intelligent collaboration tools.",
+    siteName: "Sentinel",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sentinel - AI-Powered GitHub Code Analysis",
+    description: "Ship code faster with AI-powered GitHub collaboration and code intelligence.",
+  },
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 export default function RootLayout({
